@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     namespace: nginx
-    server: dev-cluster
+    name: dev-cluster
   project: dev-cluster-nginx
   source:
     path: nginx
