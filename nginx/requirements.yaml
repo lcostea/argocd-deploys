@@ -1,4 +1,0 @@
-dependencies:
-- name: nginx
-  version: 8.5.2
-  repository: 'bitnami'

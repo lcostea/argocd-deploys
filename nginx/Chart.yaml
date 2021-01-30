@@ -3,3 +3,7 @@ name: nginx-umbrella
 version: 0.1.0
 description: nginx umbrella chart to deploy bitnami nginx
 home: https://github.com/bitnami/charts
+dependencies:
+- name: nginx
+  version: "8.5.2"
+  repository: "https://charts.bitnami.com/bitnami"
