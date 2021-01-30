@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: dev-cluster-nginx
+spec:
+  clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'
+  description: Project to configure applications for dev-cluster
+  destinations:
+  - namespace: nginx
+    server: '*' # https://192.168.1.231:6443
+  sourceRepos:
+  - https://github.com/lcostea/argocd-deploys.git

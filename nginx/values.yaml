@@ -1,0 +1,5 @@
+nginx:
+  image:
+    registry: docker.io
+    repository: bitnami/nginx
+    tag: 1.19.6-debian-10-r37
